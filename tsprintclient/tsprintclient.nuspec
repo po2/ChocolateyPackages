@@ -4,17 +4,16 @@
     <id>tsprintclient</id>
     <version>3.0.5.9</version>
     <packageSourceUrl>https://github.com/po2/ChocolateyPackages/tree/master/tsprintclient</packageSourceUrl>
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
     <title>TS Print Client (Install)</title>
     <authors>Terminal Works Ltd.</authors>
     <projectUrl>https://www.terminalworks.com/remote-desktop-printing</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/po2/ChocolateyPackages/tsprintclient/tools/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/po2/ChocolateyPackages/tsprintclient/assets/icon.png</iconUrl>
     <tags>terminal services print tsprint</tags>
     <summary>TSPrint is the RDP printing software for Terminal Services, Remote Desktop, VDI, or Citrix environments. Simple implementation and ease-of-use, coupled with an affordable licensing system, makes TSPrint one of the most popular remote desktop printing solutions on the market. Increase the stability of servers, without installing printer drivers on any terminal server. Clients print directly to their local printers from the terminal server, without additional administrator time required for implementation or configuration.</summary>
-    <releaseNote>
+    <releaseNotes>
     Program release notes: https://www.terminalworks.com/remote-desktop-printing/downloads#historyDiv
     Package release notes: added iconUrl, projectUrl and new tag
-    </releaseNote>
+    </releaseNotes>
     <description>
 TSPrint is the RDP printing software for Terminal Services, Remote Desktop, VDI, or Citrix environments. Simple implementation and ease-of-use, coupled with an affordable licensing system, makes TSPrint one of the most popular remote desktop printing solutions on the market. Increase the stability of servers, without installing printer drivers on any terminal server. Clients print directly to their local printers from the terminal server, without additional administrator time required for implementation or configuration.
     
