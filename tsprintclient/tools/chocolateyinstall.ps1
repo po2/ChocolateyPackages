@@ -1,16 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = Join-Path $toolsDir 'TSPrint_client.exe'
-#$url        = '' # download url, HTTPS preferred
+#$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+#$fileLocation = Join-Path $toolsDir 'TSPrint_client.exe'
+$url        = 'https://www.terminalworks.com/downloads/tsprint/TSPrint_client.exe' # download url, HTTPS preferred
 #$url64      = '' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   #unzipLocation = $toolsDir
   fileType      = 'EXE' #only one of these: exe, msi, msu
-  #url           = $url
+  url           = $url
   #url64bit      = $url64
-  file         = $fileLocation
+  #file         = $fileLocation
 
   softwareName  = 'TSPrint Client' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 
