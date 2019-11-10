@@ -8,11 +8,11 @@
     <authors>Terminal Works Ltd.</authors>
     <projectUrl>https://www.terminalworks.com/remote-desktop-printing</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/po2/ChocolateyPackages/tsprintclient/assets/icon.png</iconUrl>
-    <tags>terminal services print tsprint</tags>
+    <licenseUrl>https://www.terminalworks.com/terms-conditions</licenseUrl>
+    <tags>terminal services print tsprint rds terminalworks printitng</tags>
     <summary>TSPrint is the RDP printing software for Terminal Services, Remote Desktop, VDI, or Citrix environments. Simple implementation and ease-of-use, coupled with an affordable licensing system, makes TSPrint one of the most popular remote desktop printing solutions on the market. Increase the stability of servers, without installing printer drivers on any terminal server. Clients print directly to their local printers from the terminal server, without additional administrator time required for implementation or configuration.</summary>
     <releaseNotes>
     Program release notes: https://www.terminalworks.com/remote-desktop-printing/downloads#historyDiv
-    Package release notes: added iconUrl, projectUrl and new tag
     </releaseNotes>
     <description>
 TSPrint is the RDP printing software for Terminal Services, Remote Desktop, VDI, or Citrix environments. Simple implementation and ease-of-use, coupled with an affordable licensing system, makes TSPrint one of the most popular remote desktop printing solutions on the market. Increase the stability of servers, without installing printer drivers on any terminal server. Clients print directly to their local printers from the terminal server, without additional administrator time required for implementation or configuration.
@@ -39,8 +39,6 @@ TRANSFER FILES
 With a simple right-click, you can transfer your file to the local workstation. The standard save dialog will show up, and you can select where on the local workstation you wish to transfer the file.</description>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>
