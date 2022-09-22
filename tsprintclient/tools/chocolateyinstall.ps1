@@ -8,7 +8,7 @@ $packageArgs = @{
 
   softwareName  = 'TSPrint Client'
 
-  checksum      = '68c1ae6374cd06cc343b9c8d02cd5481d89caddec458db8099e451ba2806d0a8'
+  checksum      = '768d63c865f9e32648a09112bb5fdb0f448453f2805e411ffaa314c90668034b'
   checksumType  = 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
